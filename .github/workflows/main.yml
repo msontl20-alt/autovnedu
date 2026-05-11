@@ -50,8 +50,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-Bước 5. Cài đặt (Setting) page, nếu chưa thấy hoạt động thì có thể vào Action để run workfolow một lần duy nhất (sau này tự chạy)
-
-Nếu có lỗi trang trắng thì có thể vào trang index.html để thêm script sau
-
-<script type="module" src="/index.tsx"></script>
